@@ -1,0 +1,111 @@
+<section id="contact">
+<style>
+#contact {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #f00;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #f00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 30px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #d00;
+  cursor: pointer;
+}
+</style>
+  <div class="container">
+    <h2 class="section-heading">Get in Touch</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="contact-heading">Follow Us</h3>
+        <ul class="social-media">
+          <li><a href="https://www.instagram.com/mcd/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://www.facebook.com/mcd/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="https://twitter.com/mcd/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3 class="contact-heading">Email Us</h3>
+        <form action="mailto:Alworod.mcdonalds.com.sa" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Your Message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
